@@ -1,0 +1,88 @@
+/* Rest da página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* Corpo da página */
+body {
+    background: linear-gradient(135deg, #352b3f, #15393d);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+/* Título da página */
+h1 {
+    margin-bottom: 40px;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/* Container geral para as duas caixas */
+.game-rules {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Caixa do jogo e mensagens */
+.container, .mensagens {
+    background: rgba(37, 60, 124, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width: 450px; 
+    height: 250px; 
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/* Input e botão */
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8dad17;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6b8e0c;
+}
+
+/* Mensagens internas */
+.mensagens p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: white;
+}
